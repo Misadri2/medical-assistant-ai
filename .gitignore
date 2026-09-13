@@ -1,0 +1,31 @@
+# Ambiente
+.venv/
+__pycache__/
+*.pyc
+.env
+
+# Dados gerados/sensíveis
+data/processed/
+data/raw/*.csv
+data/raw/*.json
+!data/raw/.gitkeep
+
+# Vector store e banco
+*.db
+chroma_db/
+
+# Logs de auditoria
+*.jsonl
+
+# Notebooks - checkpoints
+.ipynb_checkpoints/
+
+# SO / IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Testes
+.pytest_cache/
+.coverage
+htmlcov/

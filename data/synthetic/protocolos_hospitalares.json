@@ -1,0 +1,44 @@
+[
+  {
+    "id": "PROT-001",
+    "titulo": "Protocolo de manejo de sepse",
+    "categoria": "emergencia",
+    "conteudo": "Diante de suspeita de sepse (SOFA >= 2 ou qSOFA >= 2), iniciar o pacote de 1 hora: (1) coletar lactato sérico; (2) coletar hemoculturas antes da antibioticoterapia; (3) iniciar antibiótico de amplo espectro em até 60 minutos; (4) iniciar reposição volêmica com cristaloide 30 mL/kg em caso de hipotensão ou lactato >= 4 mmol/L; (5) usar vasopressor (noradrenalina) se hipotensão persistir após a reposição volêmica, com meta de PAM >= 65 mmHg. Reavaliar lactato em 2-4 horas.",
+    "fonte": "Protocolo Institucional de Sepse v3.2"
+  },
+  {
+    "id": "PROT-002",
+    "titulo": "Protocolo de dor torácica aguda",
+    "categoria": "cardiologia",
+    "conteudo": "Todo paciente com dor torácica aguda deve realizar ECG em até 10 minutos da chegada. Se supradesnivelamento de ST, acionar linha de cateterismo (meta porta-balão <= 90 minutos). Coletar troponina na chegada e repetir em 3 horas. Classificar risco pelo escore HEART. Pacientes de baixo risco (HEART <= 3) com troponinas negativas podem receber alta com seguimento ambulatorial em 72h.",
+    "fonte": "Protocolo Institucional de Síndrome Coronariana Aguda v2.1"
+  },
+  {
+    "id": "PROT-003",
+    "titulo": "Protocolo de profilaxia de tromboembolismo venoso",
+    "categoria": "clinica_geral",
+    "conteudo": "Todo paciente internado deve ser avaliado quanto ao risco de TEV pelo escore de Padua na admissão. Escore >= 4 indica alto risco: iniciar profilaxia farmacológica com heparina de baixo peso molecular (enoxaparina 40mg SC 1x/dia), salvo contraindicação (sangramento ativo, plaquetopenia < 50.000). Pacientes de baixo risco recebem apenas profilaxia mecânica (compressão pneumática intermitente).",
+    "fonte": "Protocolo Institucional de TEV v1.4"
+  },
+  {
+    "id": "PROT-004",
+    "titulo": "Protocolo de manejo de crise hipertensiva",
+    "categoria": "cardiologia",
+    "conteudo": "Diferenciar urgência hipertensiva (PA > 180/120 sem lesão de órgão-alvo) de emergência hipertensiva (com lesão de órgão-alvo). Na emergência, reduzir a PAM em no máximo 25% na primeira hora com anti-hipertensivo endovenoso (nitroprussiato ou nicardipina), com monitorização contínua em unidade de terapia intensiva. Na urgência, reduzir gradualmente com medicação oral em 24-48h, sem necessidade de internação em UTI.",
+    "fonte": "Protocolo Institucional de Emergências Hipertensivas v2.0"
+  },
+  {
+    "id": "PROT-005",
+    "titulo": "Protocolo de manejo de cetoacidose diabética",
+    "categoria": "endocrinologia",
+    "conteudo": "Confirmar diagnóstico com glicemia > 250 mg/dL, pH < 7.3, bicarbonato < 18 mEq/L e cetonemia/cetonúria positiva. Iniciar hidratação com soro fisiológico 0,9% (15-20 mL/kg na primeira hora), seguida de insulina regular endovenosa em bomba de infusão contínua (0,1 U/kg/h) somente após potássio sérico >= 3,3 mEq/L. Repor potássio conforme dosagem sérica. Monitorar glicemia capilar de hora em hora até estabilização.",
+    "fonte": "Protocolo Institucional de Emergências Endócrinas v1.8"
+  },
+  {
+    "id": "PROT-006",
+    "titulo": "Protocolo de alta hospitalar segura",
+    "categoria": "clinica_geral",
+    "conteudo": "Antes da alta, verificar: (1) estabilidade dos sinais vitais nas últimas 24h; (2) conciliação medicamentosa completa, com revisão de interações; (3) exames pendentes resolvidos ou agendados para seguimento ambulatorial; (4) orientação por escrito ao paciente/família sobre sinais de alarme; (5) agendamento de retorno ambulatorial em até 7 dias para condições agudas ou 30 dias para condições crônicas estáveis.",
+    "fonte": "Protocolo Institucional de Alta Segura v1.1"
+  }
+]

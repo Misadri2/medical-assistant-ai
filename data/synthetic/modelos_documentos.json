@@ -1,0 +1,32 @@
+[
+  {
+    "id": "DOC-001",
+    "tipo": "laudo",
+    "titulo": "Modelo de laudo de raio-X de tórax normal",
+    "conteudo": "LAUDO DE RADIOGRAFIA DE TÓRAX. Técnica: incidências PA e perfil. Campos pulmonares com transparência preservada, sem consolidações, opacidades ou derrame pleural. Silhueta cardíaca com índice cardiotorácico dentro da normalidade. Mediastino centrado, sem alargamentos. Estruturas ósseas sem alterações agudas. CONCLUSÃO: exame sem achados agudos."
+  },
+  {
+    "id": "DOC-002",
+    "tipo": "receita",
+    "titulo": "Modelo de receita para hipertensão arterial não complicada",
+    "conteudo": "RECEITA MÉDICA. Losartana potássica 50mg — 1 comprimido via oral pela manhã, uso contínuo. Hidroclorotiazida 25mg — 1 comprimido via oral pela manhã, uso contínuo. Orientações: monitorar pressão arterial semanalmente, retorno em 30 dias com exames de função renal e eletrólitos."
+  },
+  {
+    "id": "DOC-003",
+    "tipo": "procedimento",
+    "titulo": "Modelo de descrição de procedimento — paracentese diagnóstica",
+    "conteudo": "DESCRIÇÃO DE PROCEDIMENTO. Paciente em decúbito dorsal, antissepsia do quadrante inferior esquerdo do abdome. Punção com agulha calibre 18G guiada por referência anatômica/ultrassom. Coletados 60mL de líquido ascítico para análise bioquímica, citológica e microbiológica. Procedimento sem intercorrências. Compressivo local aplicado."
+  },
+  {
+    "id": "DOC-004",
+    "tipo": "laudo",
+    "titulo": "Modelo de laudo de hemograma completo",
+    "conteudo": "LAUDO DE HEMOGRAMA COMPLETO. Série vermelha, branca e plaquetária dentro dos valores de referência para idade e sexo. Sem sinais de anemia, leucocitose ou plaquetopenia. CONCLUSÃO: hemograma dentro dos limites da normalidade."
+  },
+  {
+    "id": "DOC-005",
+    "tipo": "receita",
+    "titulo": "Modelo de receita para profilaxia de TEV pós-operatória",
+    "conteudo": "RECEITA MÉDICA. Enoxaparina sódica 40mg — 1 aplicação subcutânea por dia, por 10 dias após a alta. Orientações: aplicar sempre no mesmo horário, alternar locais de aplicação, retornar imediatamente ao pronto-socorro em caso de sangramento anormal."
+  }
+]

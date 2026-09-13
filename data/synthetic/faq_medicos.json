@@ -1,0 +1,44 @@
+[
+  {
+    "id": "FAQ-001",
+    "pergunta": "Qual a meta de pressão arterial média em paciente com emergência hipertensiva?",
+    "resposta": "Reduzir a PAM em no máximo 25% na primeira hora, conforme o protocolo institucional de emergências hipertensivas, com monitorização contínua em UTI.",
+    "categoria": "cardiologia",
+    "fonte_protocolo": "PROT-004"
+  },
+  {
+    "id": "FAQ-002",
+    "pergunta": "Quando devo acionar a linha de cateterismo em dor torácica?",
+    "resposta": "Sempre que houver supradesnivelamento de ST no ECG realizado até 10 minutos da chegada, com meta de porta-balão de até 90 minutos.",
+    "categoria": "cardiologia",
+    "fonte_protocolo": "PROT-002"
+  },
+  {
+    "id": "FAQ-003",
+    "pergunta": "A partir de qual potássio sérico posso iniciar insulina na cetoacidose diabética?",
+    "resposta": "Somente após o potássio sérico estar igual ou acima de 3,3 mEq/L, para evitar arritmias por hipocalemia induzida pela insulina.",
+    "categoria": "endocrinologia",
+    "fonte_protocolo": "PROT-005"
+  },
+  {
+    "id": "FAQ-004",
+    "pergunta": "Qual escore uso para decidir profilaxia de TEV em paciente internado?",
+    "resposta": "O escore de Padua, aplicado na admissão. Escore igual ou maior que 4 indica alto risco e profilaxia farmacológica com enoxaparina, salvo contraindicação.",
+    "categoria": "clinica_geral",
+    "fonte_protocolo": "PROT-003"
+  },
+  {
+    "id": "FAQ-005",
+    "pergunta": "Quais exames coletar antes de iniciar antibiótico em suspeita de sepse?",
+    "resposta": "Lactato sérico e hemoculturas devem ser coletados antes do início da antibioticoterapia, que deve ocorrer em até 60 minutos da suspeita.",
+    "categoria": "emergencia",
+    "fonte_protocolo": "PROT-001"
+  },
+  {
+    "id": "FAQ-006",
+    "pergunta": "O que é obrigatório checar antes de dar alta a um paciente?",
+    "resposta": "Estabilidade dos sinais vitais nas últimas 24h, conciliação medicamentosa, exames pendentes resolvidos ou agendados, orientação por escrito sobre sinais de alarme e agendamento de retorno ambulatorial.",
+    "categoria": "clinica_geral",
+    "fonte_protocolo": "PROT-006"
+  }
+]
