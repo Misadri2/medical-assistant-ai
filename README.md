@@ -1,7 +1,7 @@
 # Assistente Médico Virtual — Tech Challenge Fase 3 (Pós Tech IA)
 
 Assistente virtual médico treinado com dados internos do hospital
-(sintéticos, nesta atividade acadêmica), capaz de responder dúvidas
+(sintéticos, nesta atividade), capaz de responder dúvidas
 clínicas com base em protocolos institucionais, verificar exames
 pendentes de um paciente, emitir alertas para a equipe médica e manter
 trilha de auditoria — tudo com guardrails de segurança (nunca prescreve
@@ -118,13 +118,6 @@ python -m src.data_prep.generate_synthetic_data
 # 6) Rodar a demonstração completa (banco + RAG + LangGraph + guardrails + auditoria)
 python -m src.main --paciente-id 1 --pergunta "Qual a conduta para lactato elevado com suspeita de sepse?"
 ```
-
-Por padrão (`LLM_BACKEND=mock` no `.env.example`), o projeto roda 100%
-localmente e offline, usando um `MockLLM` que simula a resposta a partir
-do contexto recuperado via RAG — isso permite validar todo o pipeline
-(banco, RAG, guardrails, LangGraph, auditoria) sem precisar de GPU nem do
-modelo fine-tunado. Para usar o modelo real, veja a seção
-[Rodando com o modelo fine-tunado](#rodando-com-o-modelo-fine-tunado-ollama).
 
 ## Fine-tuning no Google Colab
 
