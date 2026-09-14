@@ -191,25 +191,7 @@ Implementados em `src/guardrails/safety.py`:
   do protocolo de origem — a resposta final referencia explicitamente
   qual protocolo embasou a sugestão (ex.: `PROT-001`).
 
-## Como subir este repositório para o GitHub
 
-```bash
-cd "C:\Users\mismo\Área de Trabalho\Documentos\Pós IA\Repositórios Desafios Tech\medical-assistant-ai"
-
-git init
-git add .
-git commit -m "Tech Challenge Fase 3: assistente médico com fine-tuning, RAG e LangGraph"
-
-# Crie um repositório vazio no GitHub (via site) e depois:
-git branch -M main
-git remote add origin https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
-git push -u origin main
-```
-
-> O `.gitignore` já exclui `.venv/`, `data/processed/` (banco, vector
-> store e logs gerados em runtime) e o arquivo `.env` com segredos —
-> apenas o código-fonte, os dados sintéticos de entrada e a
-> documentação são versionados.
 
 ## Decisões técnicas e limitações
 
@@ -222,5 +204,3 @@ git push -u origin main
 | Anonimização com backend **regex** por padrão, **Presidio** opcional | Regex cobre os testes/dados sintéticos sem dependências pesadas; Presidio (NER) é o backend recomendado para dados clínicos reais em texto livre |
 | Nunca prescrição direta sem validação humana | Requisito explícito do desafio — implementado como guardrail de saída, não apenas como instrução de prompt (defesa em profundidade) |
 
----
-Projeto acadêmico desenvolvido para a Fase 3 da Pós Tech em IA (FIAP).
