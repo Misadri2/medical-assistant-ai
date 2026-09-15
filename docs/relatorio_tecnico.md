@@ -13,6 +13,7 @@ internos do hospital (sintéticos, para fins acadêmicos), capaz de:
   exames, sugere condutas e emite alertas para a equipe médica;
 - operar dentro de limites de segurança definidos (guardrails) e manter
   trilha de auditoria com explainability.
+  https://huggingface.co/Misadri1984/medassist-lora-adapter
 
 ## 2. Processo de fine-tuning
 
